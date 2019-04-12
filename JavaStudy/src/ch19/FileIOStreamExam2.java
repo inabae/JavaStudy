@@ -16,7 +16,7 @@ public class FileIOStreamExam2 {
 			int data = 0;
 			byte[] buffer = new byte[1024]; // 장바구니 생성
 			while (true) {
-				data = fis.read();
+				data = fis.read(buffer);
 				if (data == -1)
 					break; // data에 더이상 읽을 것이 없을 경우 -1이 나오기 때문에 -1이 나올때까지 돌리면 모든 내용을 다 볼 수 있음.
 //				fos.write(data); // fis에서 읽은 data를 test2.txt를 만든 곳에 쓰는 명령해서 생성함.

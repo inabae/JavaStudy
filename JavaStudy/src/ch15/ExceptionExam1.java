@@ -15,7 +15,7 @@ public class ExceptionExam1 {
 		try {
 			int a = (Integer) obj; // ClassCastException
 		} catch (ClassCastException e) {
-			System.out.println("xx에서 오류 발생");
+			System.out.println("xx에서 오류 발생"); //int a = (Integer) obj;에서 오류가 나면 출력됨
 		}
 	}
 }

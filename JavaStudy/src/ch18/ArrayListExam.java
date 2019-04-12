@@ -26,6 +26,7 @@ public class ArrayListExam {
 		ArrayList<String> list = new ArrayList<String>(); //¹®ÀÚ
 		list.add("bae");
 		String value2 = (String) list.get(0);
+//		System.out.println(value2);
 	}
 
 }

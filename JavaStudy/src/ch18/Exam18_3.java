@@ -10,7 +10,7 @@ public class Exam18_3 {
 		// 번호 3개 미리 선택(저장)
 		lotto.add(2);
 		lotto.add(7);
-		lotto.add(11);
+		lotto.add(40);
 		// 미리 선택한 번호를 제외하고 나머지 랜덤 생성 후 저장
 		while (true) {
 			if (lotto.size() == 6)

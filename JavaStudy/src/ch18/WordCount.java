@@ -16,7 +16,7 @@ public class WordCount {
 		text.append("make it an ideal language for scripting and ");
 		text.append("rapid application development in many areas on most platforms.");
 
-		String[] words = text.toString().split(" ");
+		String[] words = text.toString().split(" "); // 공백을 기준으로 모든 글씨를 쪼개기.
 
 		Map<String, Integer> wordMap = new HashMap<String, Integer>();
 		for (String word : words) {

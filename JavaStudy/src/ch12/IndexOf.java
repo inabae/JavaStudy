@@ -10,7 +10,7 @@ public class IndexOf {
 		// 순서대로 공백 찾기
 		while (true) {
 			idx = str.indexOf(" ", idx + 1);
-			if (idx == -1) {
+			if (idx == -1) { //indexOf는 탐색할 문자열이 없으면 -1을 반환함.
 				break;
 			}
 			System.out.println(idx);
